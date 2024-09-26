@@ -25,7 +25,7 @@ struct AddView: View {
                 TextField("Type somehting here...", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height: 55)
-                    .background(Color(#colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)))
+                    .background(Color(UIColor.secondarySystemBackground))
                     .cornerRadius(10)
                     
                    
@@ -77,7 +77,9 @@ struct AddView: View {
 }
 
 #Preview {
-    NavigationView {
-        AddView()
-    }.environmentObject(ListViewModel())
+    Group {
+        NavigationView {
+            AddView()
+        }.environmentObject(ListViewModel())
+    }
 }
