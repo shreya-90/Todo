@@ -15,6 +15,7 @@
 		1AC5F8F32CA4242E004BC76F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5F8F22CA4242E004BC76F /* AddView.swift */; };
 		1AC5F8F62CA43968004BC76F /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5F8F52CA43968004BC76F /* ItemModel.swift */; };
 		1AC5F8F92CA53F14004BC76F /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5F8F82CA53F14004BC76F /* ListViewModel.swift */; };
+		1AC5F8FB2CA57A11004BC76F /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5F8FA2CA57A11004BC76F /* NoItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1AC5F8F22CA4242E004BC76F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		1AC5F8F52CA43968004BC76F /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		1AC5F8F82CA53F14004BC76F /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		1AC5F8FA2CA57A11004BC76F /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				1AC5F8EE2CA40F80004BC76F /* ListView.swift */,
+				1AC5F8FA2CA57A11004BC76F /* NoItemsView.swift */,
 				1AC5F8F02CA41DCF004BC76F /* ListRowView.swift */,
 				1AC5F8F22CA4242E004BC76F /* AddView.swift */,
 			);
@@ -178,6 +181,7 @@
 				1AC5F8F92CA53F14004BC76F /* ListViewModel.swift in Sources */,
 				1AC5F8E02CA3FE2D004BC76F /* TodoListApp.swift in Sources */,
 				1AC5F8EF2CA40F80004BC76F /* ListView.swift in Sources */,
+				1AC5F8FB2CA57A11004BC76F /* NoItemsView.swift in Sources */,
 				1AC5F8F12CA41DCF004BC76F /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
