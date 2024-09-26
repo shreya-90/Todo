@@ -14,6 +14,7 @@
 		1AC5F8F12CA41DCF004BC76F /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5F8F02CA41DCF004BC76F /* ListRowView.swift */; };
 		1AC5F8F32CA4242E004BC76F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5F8F22CA4242E004BC76F /* AddView.swift */; };
 		1AC5F8F62CA43968004BC76F /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5F8F52CA43968004BC76F /* ItemModel.swift */; };
+		1AC5F8F92CA53F14004BC76F /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5F8F82CA53F14004BC76F /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1AC5F8F02CA41DCF004BC76F /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		1AC5F8F22CA4242E004BC76F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		1AC5F8F52CA43968004BC76F /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		1AC5F8F82CA53F14004BC76F /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 		1AC5F8DE2CA3FE2D004BC76F /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
-				1AC5F8F42CA438E0004BC76F /* Models */,
 				1AC5F8DF2CA3FE2D004BC76F /* TodoListApp.swift */,
+				1AC5F8F42CA438E0004BC76F /* Models */,
+				1AC5F8F72CA53ED1004BC76F /* ViewModels */,
 				1AC5F8ED2CA40EF0004BC76F /* Views */,
 				1AC5F8E32CA3FE2F004BC76F /* Assets.xcassets */,
 				1AC5F8E52CA3FE2F004BC76F /* Preview Content */,
@@ -90,6 +93,14 @@
 				1AC5F8F52CA43968004BC76F /* ItemModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1AC5F8F72CA53ED1004BC76F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1AC5F8F82CA53F14004BC76F /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			files = (
 				1AC5F8F62CA43968004BC76F /* ItemModel.swift in Sources */,
 				1AC5F8F32CA4242E004BC76F /* AddView.swift in Sources */,
+				1AC5F8F92CA53F14004BC76F /* ListViewModel.swift in Sources */,
 				1AC5F8E02CA3FE2D004BC76F /* TodoListApp.swift in Sources */,
 				1AC5F8EF2CA40F80004BC76F /* ListView.swift in Sources */,
 				1AC5F8F12CA41DCF004BC76F /* ListRowView.swift in Sources */,
