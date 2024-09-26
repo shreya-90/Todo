@@ -10,10 +10,16 @@ import Foundation
 /*
  CRUD functions
  
- 
+
  */
 class ListViewModel: ObservableObject {
-    @Published var items: [ItemModel] = []
+    @Published var items: [ItemModel] = [] {
+        didSet {
+            saveItems()
+        }
+    }
+    
+    let itemsKey: String = "items_list"
     
     init() {
         getItems()
@@ -47,4 +53,12 @@ class ListViewModel: ObservableObject {
             items[index] = item.updateCompletion()
        }
     }
+    
+    func saveItems() {
+        if let encodedData = try? JSONEncoder().encode(items) {
+            UserDefaults.standard.setValue(encodedData, forKey: itemsKey)
+        }
+    }
+    
+    
 }
